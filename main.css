@@ -1,0 +1,72 @@
+/* Color Palette 
+#aea3b0 - background 
+#c6d2ed - global h2, nav-link
+#423d3f - global p 
+#827081 - nav-link:hover/nav-bar logo
+#da801b - navbar.scrolled
+#301b04 - headingGroup h1, p
+*/
+
+/* Global Styles 
+---------------------------------*/
+body {
+  background: #aea3b0;
+  font-family: 'Lato', sans-serif;
+}
+.global h2 {
+  color: #c6d2ed;
+  font-weight: 100;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+}
+.global p {
+  color: #423d3f;
+  font-weight: 100;
+  font-size: 1.125rem;
+  line-height: 2;
+}
+.content {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+/* Navigation 
+----------------------------*/
+#mainNav {
+  font-size: 1.5rem;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+#mainNav .nav-link {
+  color: #c6d2ed;
+}
+#mainNav .nav-link:hover {
+  color: #827081;
+}
+#mainNav .navbar-logo {
+  color: #827081;
+}
+.navbar.scrolled {
+  background: #da801b;
+  transition: background 500ms;
+}
+
+/* Heading 
+---------------------------*/
+#headingGroup h1 {
+  font-weight: 100;
+  font-size: 4rem;
+  text-transform: uppercase;
+}
+#headingGroup h1, p {
+  color: #301b04;
+}
+
+/* Media Queries 
+-----------------------------*/
+@media (max-width: 1200px) {
+  #headingGroup h1 {
+    font-weight: 100;
+    font-size: 3rem;
+  } 
+}
